@@ -204,7 +204,7 @@ int main() {
     return 0;
 }
 ```
-
+///就是这个代码,cpplint让我在&x后面加[runtime]....
 
 
 # 6.19
