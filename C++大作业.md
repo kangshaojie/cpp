@@ -43,6 +43,37 @@ if (sig == SIGINT ||  sig == SIGTERM) {
  }
 }
 ```
+build_dep.sh:
+
+```c++
+    sudo apt-get -y install wget \
+        make \
+        gcc-multilib \
+        m4 \
+        libncurses5-dev \
+        libreadline-dev \
+        python \
+        maven \
+        openjdk-8-jdk \
+        unzip
+```
+
+改为：
+
+```c++
+    sudo apt-get -y install wget \
+        make \
+        gcc-multilib \
+        m4 \
+        libncurses5-dev \
+        libreadline-dev \
+        python \
+        maven \
+        openjdk-8-jdk \
+        unzip \
+        curl
+```
+
 
 # 三.操作过程
 
